@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>866</width>
+    <height>517</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Mezcla Directa</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QListView" name="listaOriginalListView">
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QListView" name="listaOrdenadaListView">
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="numeroSpinBox">
+        <property name="font">
+         <font>
+          <pointsize>50</pointsize>
+         </font>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QPushButton" name="agregarPushButton">
+        <property name="font">
+         <font>
+          <pointsize>35</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>AGREGAR</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="eliminarPushButton">
+        <property name="font">
+         <font>
+          <pointsize>35</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>ELIMINAR</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="limpiarPushButton">
+        <property name="font">
+         <font>
+          <pointsize>35</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>LIMPIAR</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="ordenarPushButton">
+        <property name="font">
+         <font>
+          <pointsize>35</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>ORDENAR</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="verImagenPushButton">
+        <property name="font">
+         <font>
+          <pointsize>35</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>VER IMAGEN</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="verCodigoPushButton">
+        <property name="font">
+         <font>
+          <pointsize>35</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>VER CÓDIGO</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="quitarAplicacionPushButton">
+        <property name="font">
+         <font>
+          <pointsize>35</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>QUITAR APLICACIÓN</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

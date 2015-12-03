@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>MezclaDirecta.png</file>
+        <file>codigo.txt</file>
+    </qresource>
+</RCC>
